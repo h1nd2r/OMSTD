@@ -68,6 +68,7 @@ Tal vez sea adelantar acontecimientos pero, para ponértelo más fácil, estas s
 .. code-block:: bash
 
     sudo python3.4 -m pip install virtualenvwrapper
+    (Linux tiene por defecto python2.7.x, hay que instalar 3.4 si quieres que esto funcione)
 
 2 - Configurar virtualenvwrapper
 ++++++++++++++++++++++++++++++++
@@ -84,6 +85,7 @@ Tal vez sea adelantar acontecimientos pero, para ponértelo más fácil, estas s
 .. code-block:: bash
 
     locate python3.4 | grep bin/python | grep python3
+    (Los repositorios por defecto se encuentran en /usr/bin/pythonXX)
 
 .. code-block:: console
 
@@ -102,6 +104,7 @@ Tal vez sea adelantar acontecimientos pero, para ponértelo más fácil, estas s
 .. code-block:: bash
 
     mkvirtualenv -p /opt/local/bin/python3.4 omstd
+    (No encuentra ese comando, aquí me atasqué y no puedo continuar :(, se acabaron las prácticas para mi a menos que no sea necesario ejecutarlas en una sandbox y que me deje cargas las dependencias que no será el caso porque esto de arriba no me chutó :()
 
 5 - Instalar las dependencias globales de OMSTD
 +++++++++++++++++++++++++++++++++++++++++++++++
